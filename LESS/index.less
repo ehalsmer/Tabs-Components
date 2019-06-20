@@ -7,13 +7,13 @@
 @import './mixins.less';
 @import '../components/Dropdown/Dropdown.less';
 @import '../components/Tabs/Tabs.less';
-
+@import '../components/ImageCarousel/carousel.less';
 
 
 body {
 	box-sizing: border-box;
 	min-width: 300px;
-	margin: 0;
+  margin: 0;
 }
 
 .header-container {
@@ -35,6 +35,8 @@ body {
   width: 70%;
   margin: 45px auto;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   border: 1px solid @lambda-red;
   box-shadow: 1px 1px 5px @lambda-red;
   border-radius: 10px;
